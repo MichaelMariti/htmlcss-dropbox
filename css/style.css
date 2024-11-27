@@ -138,4 +138,59 @@ main {
     border: 3px solid grey;
 }
 
+.sec3 {
+    margin-bottom: 40px;
+
+    /* DEBUG */
+    height: 600px;
+    background-color: green;
+}
+
+.sec4 {
+    margin-bottom: 40px;
+    width: 60%;
+
+    /* DEBUG */
+    height: 100px;
+    background-color: yellow;
+}
+
 /* Footer */
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer-sec {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.footer-sec2 {
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.f-column {
+    width: 20%;
+
+    /* DEBUG */
+    height: 400px;
+    background-color: chocolate;
+}
+
+#f-lang {
+    border-top: white solid 2px;
+    padding: 20px 0;
+    width: 10%;
+}
+
+select {
+    background-color: black;
+    border: none;
+    color: white;
+}
