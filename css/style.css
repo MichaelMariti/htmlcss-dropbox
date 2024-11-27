@@ -86,6 +86,8 @@ nav {
     padding: 15px 25px;
     background-color: #0061FE;
     color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .btn-w {
@@ -129,7 +131,24 @@ main {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: 550;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+#check {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
 .checkbox-round {
+    margin: 30px 0;
+
     width: 1.3em;
     height: 1.3em;
     background-color: white;
@@ -149,10 +168,51 @@ main {
 .plans-container {
     width: 100%;
     margin: 40px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
 
     /* DEBUG */
-    height: 600px;
-    background-color: green;
+    /* height: 600px;
+    background-color: green; */
+}
+
+.card {
+    width: 32%;
+}
+
+.top-plan {
+    border: 2px lightgray solid;
+    padding: 15px;
+    text-align: center;
+}
+
+.bottom-plan {
+    padding: 40px;
+    border: 2px lightgray solid;
+    padding: 0 40px 70px;
+    border-top: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 70px;
+}
+
+.card-link {
+    padding-top: 20px;
+}
+
+.divider {
+    border-bottom: solid 2px lightgray;
+    width: 20%;
+    margin: 35px 0;
+}
+
+.fa-check {
+    color: #0061FE;
 }
 
 .plans-container-2 {
